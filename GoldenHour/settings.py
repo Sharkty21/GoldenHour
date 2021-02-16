@@ -1,3 +1,4 @@
+from GoldenHour import secret_settings
 """
 Django settings for GoldenHour project.
 
@@ -20,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'rzfp0u_7e*2)cbeos(zrl05+(fsux3!0f@28ygazr^phn1nrdk'
+SECRET_KEY = secret_settings.secretKey
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
