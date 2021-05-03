@@ -1,0 +1,27 @@
+body {
+    align-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin: 1em auto;
+    text-align: center;
+    font-size: xx-large;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+}
+
+.error {
+    font-size: x-large;
+    color: red;
+}
